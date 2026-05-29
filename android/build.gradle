@@ -27,6 +27,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "dev.gabul.pagseguro_smart_flutter"
+    
     compileSdkVersion 31
 
     lintOptions {
